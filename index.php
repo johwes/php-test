@@ -10,7 +10,7 @@ TEST
 <body style="background-color: white">
 <p>
 <h1>
-Version 5
+Version 6
 <br>
 <?php echo "This pod IP is: ".$_SERVER['SERVER_ADDR'] ;?>
 </h1>
