@@ -14,7 +14,7 @@ Version 1
 <br>
 <?php 
   echo "This pod IP is: ".$_SERVER['SERVER_ADDR'] ;
-  echo "<br>" ;
+  echo "\n<br>" ;
   date_default_timezone_set('Europe/Stockholm');
   $date = date('Y/m/d H:i:s', time());
   echo "The Server time is: " .$date ; ?>
