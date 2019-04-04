@@ -12,7 +12,10 @@ TEST
 <h1>
 Version 3
 <br>
-<?php echo "This pod IP is: ".$_SERVER['SERVER_ADDR'] ;?>
+<?php echo "This pod IP is: ".$_SERVER['SERVER_ADDR'] ;
+  date_default_timezone_set('Europe/Stockholm');
+  $date = date('m/d/Y h:i:s a', time());
+  echo $date ?>
 <?php echo "This timestamp for the request was: ".$_SERVER['REQUEST_TIME'] ;?>
 </h1>
 </p>
