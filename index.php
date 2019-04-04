@@ -13,6 +13,7 @@ TEST
 Version 3
 <br>
 <?php echo "This pod IP is: ".$_SERVER['SERVER_ADDR'] ;?>
+<?php echo "This timestamp for the request was: ".$_SERVER['REQUEST_TIME'] ;?>
 </h1>
 </p>
 </body>
