@@ -17,7 +17,7 @@ Version 1
   echo "\n<br>" ;
   date_default_timezone_set('Europe/Stockholm');
   $date = date('Y/m/d H:i:s', time());
-  echo "The Server time is: " .$date ; ?>
+  echo "\nThe Server time is: " .$date ; ?>
 </h1>
 </p>
 </body>
