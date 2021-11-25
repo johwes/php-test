@@ -10,14 +10,18 @@ TEST
 <body style="background-color: white">
 <p>
 <h1>
-Version 10 - hejsan campus..
+Version 1
 <br>
 <?php 
   echo "This pod IP is: ".$_SERVER['SERVER_ADDR'] ;
   echo "\n<br>" ;
   date_default_timezone_set('Europe/Stockholm');
   $date = date('Y/m/d H:i:s', time());
-  echo "\nThe Server time is: " .$date ; ?>
+  echo "\nThe Server time is: " .$date ; 
+  foreach (getallheaders() as $name => $value) {
+    echo "$name: $value\n";
+  }
+  ?>
 </h1>
 </p>
 </body>
