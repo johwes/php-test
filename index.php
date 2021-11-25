@@ -22,6 +22,13 @@ Version 1
   foreach (getallheaders() as $name => $value) {
     echo "$name: $value\n";
   }
+
+  echo "\n<br>" ;
+
+  foreach ($_COOKIE as $key=>$val)
+  {
+    echo $key.' is '.$val."<br>\n";
+  }
   ?>
 </h1>
 </p>
