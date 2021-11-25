@@ -17,7 +17,8 @@ Version 1
   echo "\n<br>" ;
   date_default_timezone_set('Europe/Stockholm');
   $date = date('Y/m/d H:i:s', time());
-  echo "\nThe Server time is: " .$date ; 
+  echo "\nThe Server time is: " .$date ;
+  echo "\n<br>" ;
   foreach (getallheaders() as $name => $value) {
     echo "$name: $value\n";
   }
