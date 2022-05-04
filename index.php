@@ -30,6 +30,9 @@ Version 1
   {
     echo $key.' is '.$val."<br>\n";
   }
+
+  echo "<br>";
+  echo "Message in HELLO environment is: " .getenv("HELLO");
   ?>
 </h1>
 </p>
